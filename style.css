@@ -1,0 +1,77 @@
+* {
+	font-family: 'Permanent Marker', cursive;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+	height: auto;
+	width: 100vw;
+	overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+	color: rgba(156, 93, 219, 0.93);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 0;
+}
+section {
+    text-align: center;
+}
+.game-body {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;	
+    margin-bottom: 10px;
+}
+.game-container{
+    width: 360px;
+    border-collapse: collapse;
+}
+.display{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.score{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.X{
+    margin-right: 30px;
+}
+button{
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: rgba(156, 93, 219, 0.93);
+}
+.cell {
+	width: 120px;
+	height: 120px;
+	border: 5px solid #070606;
+	cursor: pointer;
+	line-height: 100px;
+	font-size: 100px;
+}
+.top .cell{
+	border-top: none;
+}
+.bottom .cell{
+	border-bottom: none;
+}
+.left {
+	border-left: none;
+}
+.right{
+	border-right: none;
+}
+div{
+    display: inline-flex;
+}
